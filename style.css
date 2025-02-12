@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+body {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  /* max-width: 1240px; */
+  margin: auto;
+}
+
+/* nav bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  color: white;
+}
+.navbar_menu {
+  display: flex;
+  justify-content: center;
+}
+.nav_links a {
+  text-decoration: none;
+  gap: 40px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+}
+.navbar_button {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  transition: 0.5s;
+  cursor: pointer;
+  border: solid 2px;
+  border-radius: 30px;
+  border-color: orange;
+  border-image-repeat: 1;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.main-video video {
+  width: 700px;
+  height: 500px;
+  padding-left: 40px;
+}
+
+.hero_title {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  padding-right: 20px;
+}
+.hero_desc {
+  text-align: center;
+  gap: 1px;
+}
+.btn {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  transition: 0.5s;
+  cursor: pointer;
+  border: solid 2px;
+  border-radius: 30px;
+  border-color: orange;
+  border-image-repeat: 1;
+}
