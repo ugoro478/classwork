@@ -53,6 +53,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 50px;
+  align-content: left;
 }
 .main-video video {
   width: 700px;
@@ -61,15 +62,17 @@ ul {
 }
 
 .hero_title {
-  text-align: center;
+  text-align: left;
   padding: 20px;
   margin: 10px;
   padding-right: 20px;
 }
 .hero_desc {
   text-align: center;
+  align-items: left;
   gap: 1px;
 }
+
 .btn {
   margin-top: 2rem;
   background-color: black;
